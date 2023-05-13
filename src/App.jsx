@@ -5,8 +5,8 @@ import { UseState } from "./Components/UseState";
 function App() {
   return (
     <>
-      <UseState></UseState>
-      <ClassState></ClassState>
+      <UseState name="UseState"></UseState>
+      <ClassState name="ClassState"></ClassState>
     </>
   );
 }
